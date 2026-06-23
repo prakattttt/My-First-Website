@@ -21,7 +21,6 @@ function alertCart(button) {
 }
 
 
-const button = document.querySelector(".butn");
-button.addEventListener("click", () => {
-    window.location.href = "http://127.0.0.1:5500/html/addedcart.html"
-})
+function redirect() {
+    window.location.href = "../html/addedcart.html";
+}
